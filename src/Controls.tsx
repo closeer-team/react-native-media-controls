@@ -18,15 +18,15 @@ const Controls = (props: ControlsProps) => {
   const pressAction = playerState === PLAYER_STATES.ENDED ? onReplay : onPause;
 
   const content = isLoading ? (
-    <ActivityIndicator size="large" color="#FFF" />
+    <ActivityIndicator size="large" color={mainColor} />
   ) : (
     <TouchableOpacity
-      style={[styles.playButton, { backgroundColor: mainColor }]}
+      style={[styles.playButton]}
       onPress={pressAction}
       accessibilityLabel={PLAYER_STATES.PAUSED ? "Tap to Play" : "Tap to Pause"}
       accessibilityHint={"Plays and Pauses the Video"}
     >
-      <Image source={icon} style={styles.playIcon} />
+      <Image source={icon} style={styles.playIcon} tintColor={mainColor} />
     </TouchableOpacity>
   );
 

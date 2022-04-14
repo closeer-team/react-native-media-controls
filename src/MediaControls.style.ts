@@ -33,8 +33,8 @@ export default StyleSheet.create({
   },
   playButton: {
     alignItems: "center",
-    borderColor: playButtonBorderColor,
-    borderRadius: 3,
+    // borderColor: playButtonBorderColor,
+    // borderRadius: 3,
     borderWidth: 1.5,
     height: 50,
     justifyContent: "center",
