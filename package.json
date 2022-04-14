@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "@types/react": "^16.9.34",
-    "@types/react-native": "^0.62.5",
+    "@types/react-native": "^0.67.4",
     "eslint-config-react-app": "^7.0.1",
     "husky": "^4.2.5",
     "react": "^16.13.1",

@@ -13,7 +13,7 @@ import { Slider, CustomSliderStyle } from "./Slider";
 import { Toolbar } from "./Toolbar";
 
 export type Props = {
-  children: React.ReactNode;
+//   children: React.ReactNode;
   containerStyle: ViewStyle;
   duration: number;
   fadeOutDelay?: number;
@@ -34,7 +34,7 @@ export type Props = {
 
 const MediaControls = (props: Props) => {
   const {
-    children,
+    // children,
     containerStyle: customContainerStyle = {},
     duration,
     fadeOutDelay = 5000,
@@ -150,7 +150,7 @@ const MediaControls = (props: Props) => {
                 customToolbarStyle,
               ]}
             >
-              {children}
+              {/* {children} */}
             </View>
             <Controls
               onPause={onPause}
