@@ -35,7 +35,7 @@ export default StyleSheet.create({
     alignItems: "center",
     // borderColor: playButtonBorderColor,
     // borderRadius: 3,
-    borderWidth: 1.5,
+    borderWidth: 0,
     height: 50,
     justifyContent: "center",
     width: 50,
