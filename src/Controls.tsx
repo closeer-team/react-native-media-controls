@@ -26,7 +26,7 @@ const Controls = (props: ControlsProps) => {
       accessibilityLabel={PLAYER_STATES.PAUSED ? "Tap to Play" : "Tap to Pause"}
       accessibilityHint={"Plays and Pauses the Video"}
     >
-      <Image source={icon} style={styles.playIcon} tintColor={mainColor} />
+      <Image source={icon} style={[styles.playIcon, {tintColor: mainColor? mainColor : '#FFF'}]} />
     </TouchableOpacity>
   );
 
